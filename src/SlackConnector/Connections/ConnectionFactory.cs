@@ -22,7 +22,7 @@ namespace SlackConnector.Connections
 
         public IWebSocketClient CreateWebSocketClient(string url, ProxySettings proxySettings)
         {
-            return new WebSocketClient(new MessageInterpreter(new Logger()), url, proxySettings);
+            return new WebSocketClient4Net(new MessageInterpreter(new Logger()), url, proxySettings);
         }
 
         public IHandshakeClient CreateHandshakeClient()

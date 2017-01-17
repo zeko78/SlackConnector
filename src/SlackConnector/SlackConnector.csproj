@@ -53,6 +53,10 @@
       <HintPath>..\..\packages\websocket-sharp-with-proxy-support.1.9.1\lib\net35-client\websocket-sharp-with-proxy-support.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="WebSocket4Net, Version=0.14.1.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebSocket4Net.0.14.1\lib\net45\WebSocket4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BotHelpers\MentionDetector.cs" />
@@ -83,6 +87,7 @@
     <Compile Include="Connections\Responses\StandardResponse.cs" />
     <Compile Include="Connections\Responses\UsersResponse.cs" />
     <Compile Include="Connections\RestSharpFactory.cs" />
+    <Compile Include="Connections\Sockets\WebSocketClient4Net.cs" />
     <Compile Include="Connections\Sockets\Messages\Inbound\DmChannelJoinedMessage.cs" />
     <Compile Include="Connections\Sockets\Messages\Inbound\UserJoinedMessage.cs" />
     <Compile Include="Connections\Sockets\Messages\Inbound\ChannelJoinedMessage.cs" />
