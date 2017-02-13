@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackConnector.Tests.Unit",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{01D3C8E6-DA36-4D50-B35E-3B3FC78AFFEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForDebugging", "src\ConsoleForDebugging\ConsoleForDebugging.csproj", "{2DF2DFD6-58AF-4B0B-B9A3-09B92C25BA3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{1D33C34B-54D1-4F3B-80B9-5B23B9619518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D33C34B-54D1-4F3B-80B9-5B23B9619518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D33C34B-54D1-4F3B-80B9-5B23B9619518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF2DFD6-58AF-4B0B-B9A3-09B92C25BA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF2DFD6-58AF-4B0B-B9A3-09B92C25BA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF2DFD6-58AF-4B0B-B9A3-09B92C25BA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF2DFD6-58AF-4B0B-B9A3-09B92C25BA3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
