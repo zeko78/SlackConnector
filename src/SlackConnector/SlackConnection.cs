@@ -95,6 +95,9 @@ namespace SlackConnector
             {
                 User = GetMessageUser(inboundMessage.User),
                 TimeStamp = inboundMessage.TimeStamp,
+                ThreadTimeStamp = inboundMessage.ThreadTimeStamp,
+                MessageType = inboundMessage.MessageType,
+                MessageSubType = inboundMessage.MessageSubType,
                 Text = inboundMessage.Text,
                 ChatHub = inboundMessage.Channel == null ? null : _connectedHubs[inboundMessage.Channel],
                 RawData = inboundMessage.RawData,

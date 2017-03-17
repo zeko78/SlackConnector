@@ -21,5 +21,8 @@ namespace SlackConnector.Connections.Sockets.Messages.Inbound
 
         [JsonProperty("ts")]
         public double TimeStamp { get; set; }
+
+        [JsonProperty("thread_ts")]
+        public double ThreadTimeStamp { get; set; }
     }
 }
